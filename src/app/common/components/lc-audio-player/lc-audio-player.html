@@ -1,0 +1,30 @@
+<div class="lc-audio-player">
+  <div class="audio-control-panel">
+    <button ng-click="lcAudioPlayerVm.audio.paused ? lcAudioPlayerVm.audioPlay() : lcAudioPlayerVm.audio.pause()">
+      <i ng-class="{'ct-ft-icon-playbtn-fi': lcAudioPlayerVm.audio.paused,
+                    'ct-ft-icon-pausebtn-fi': !lcAudioPlayerVm.audio.paused && lcAudioPlayerVm.audio.remaining !== 0,
+                    'ct-ft-icon-restartbtn-thin': lcAudioPlayerVm.audio.remaining === 0 }"></i>
+    </button>
+  </div>
+  <div class="audio-info-panel">
+    <div class="pull-width"></div>
+     <rzslider
+       rz-slider-model="lcAudioPlayerVm.slider.value"
+       rz-slider-options="lcAudioPlayerVm.slider.options">
+     </rzslider>
+    <div ng-if="lcAudioPlayerVm.audioFilename" class="audio-hidden-menu" uib-tooltip="{{lcAudioPlayerVm.audioFilename}}">
+      {{lcAudioPlayerVm.audioFilename || 'Audio'}}
+    </div>
+  </div>
+  <div class="audio-time-panel">
+    <span ng-if="!lcAudioPlayerVm.checkAudioLoad()">
+      'Loading...'
+    </span>
+    <span ng-if="lcAudioPlayerVm.checkRemainingTimeViewCondition()">
+      {{lcAudioPlayerVm.audio.remaining | secondsToDateTime | date:'mm:ss'}} |
+    </span>
+    <span ng-if="lcAudioPlayerVm.checkAudioLoad()">
+      {{lcAudioPlayerVm.trackRunningTime | date:'mm:ss'}}
+    </span>
+  </div>
+</div>

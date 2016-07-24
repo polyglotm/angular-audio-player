@@ -1,0 +1,197 @@
+//
+// Pink
+//
+
+$pink-list: (
+  "base": #e91e63,
+  "50":   #fce4ec,
+  "100":  #f8bbd0,
+  "200":  #f48fb1,
+  "300":  #f06292,
+  "400":  #ec407a,
+  "500":  #e91e63,
+  "600":  #d81b60,
+  "700":  #c2185b,
+  "800":  #ad1457,
+  "900":  #880e4f,
+  "a100": #ff80ab,
+  "a200": #ff4081,
+  "a400": #f50057,
+  "a700": #c51162
+);
+
+$pink:      map-get($pink-list, "base");
+
+$pink-50:   map-get($pink-list, "50");
+$pink-100:  map-get($pink-list, "100");
+$pink-200:  map-get($pink-list, "200");
+$pink-300:  map-get($pink-list, "300");
+$pink-400:  map-get($pink-list, "400");
+$pink-500:  map-get($pink-list, "500");
+$pink-600:  map-get($pink-list, "600");
+$pink-700:  map-get($pink-list, "700");
+$pink-800:  map-get($pink-list, "800");
+$pink-900:  map-get($pink-list, "900");
+$pink-a100: map-get($pink-list, "a100");
+$pink-a200: map-get($pink-list, "a200");
+$pink-a400: map-get($pink-list, "a400");
+$pink-a700: map-get($pink-list, "a700");
+
+
+//
+// Light Blue
+//
+
+$light-blue-list: (
+  "base": #03a9f4,
+  "50":   #e1f5fe,
+  "100":  #b3e5fc,
+  "200":  #81d4fa,
+  "300":  #4fc3f7,
+  "400":  #29b6f6,
+  "500":  #03a9f4,
+  "600":  #039be5,
+  "700":  #0288d1,
+  "800":  #0277bd,
+  "900":  #01579b,
+  "a100": #80d8ff,
+  "a200": #40c4ff,
+  "a400": #00b0ff,
+  "a700": #0091ea
+);
+
+$light-blue:      map-get($light-blue-list, "base");
+
+$light-blue-50:   map-get($light-blue-list, "50");
+$light-blue-100:  map-get($light-blue-list, "100");
+$light-blue-200:  map-get($light-blue-list, "200");
+$light-blue-300:  map-get($light-blue-list, "300");
+$light-blue-400:  map-get($light-blue-list, "400");
+$light-blue-500:  map-get($light-blue-list, "500");
+$light-blue-600:  map-get($light-blue-list, "600");
+$light-blue-700:  map-get($light-blue-list, "700");
+$light-blue-800:  map-get($light-blue-list, "800");
+$light-blue-900:  map-get($light-blue-list, "900");
+$light-blue-a100: map-get($light-blue-list, "a100");
+$light-blue-a200: map-get($light-blue-list, "a200");
+$light-blue-a400: map-get($light-blue-list, "a400");
+$light-blue-a700: map-get($light-blue-list, "a700");
+
+
+
+//
+// Green
+//
+
+$green-list: (
+  "base": #0abcad,
+  "50":   #e1f7f5,
+  "100":  #b5ebe6,
+  "300":  #6cd7cd,
+  "400":  #47cabd,
+  "500":  #0abcad,
+  "700":  #1f9c99,
+  "900":  #138687,
+  "a100": #83e3c5
+);
+
+$green:      map-get($green-list, "base");
+
+$green-50:   map-get($green-list, "50");
+$green-100:  map-get($green-list, "100");
+$green-300:  map-get($green-list, "300");
+$green-400:  map-get($green-list, "400");
+$green-500:  map-get($green-list, "500");
+$green-700:  map-get($green-list, "700");
+$green-900:  map-get($green-list, "900");
+$green-a100: map-get($green-list, "a100");
+
+
+//
+// Grey
+//
+
+$grey-list: (
+  "base": #b3b3b3,
+  "50":   #fcfcfc,
+  "100":  #f7f7f7,
+  "150":  #f2f2f2,
+  "200":  #e6e6e6,
+  "250":  #d9d9d9,
+  "300":  #ccc,
+  "400":  #bebebe,
+  "500":  #b3b3b3,
+  "600":  #999,
+  "700":  #808080,
+  "800":  #666,
+  "900":  #333,
+);
+
+$grey:     map-get($grey-list, "base");
+
+$grey-50:  map-get($grey-list, "50");
+$grey-100: map-get($grey-list, "100");
+$grey-150: map-get($grey-list, "150");
+$grey-200: map-get($grey-list, "200");
+$grey-250: map-get($grey-list, "250");
+$grey-300: map-get($grey-list, "300");
+$grey-400: map-get($grey-list, "400");
+$grey-500: map-get($grey-list, "500");
+$grey-600: map-get($grey-list, "600");
+$grey-700: map-get($grey-list, "700");
+$grey-800: map-get($grey-list, "800");
+$grey-900: map-get($grey-list, "900");
+
+
+//
+// Black
+//
+
+$black-list: (
+  "base": #333
+);
+
+$black: map-get($black-list, "base");
+
+
+//
+// White
+//
+
+$white-list: (
+  "base": #fff
+);
+
+$white: map-get($white-list, "base");
+
+
+//
+// List for all Colors for looping
+//
+
+$list-all: (
+  "pink":        $pink-list,
+  "light-blue":  $light-blue-list,
+  "green":       $green-list,
+  "grey":        $grey-list,
+  "black":       $black-list,
+  "white":       $white-list
+);
+
+
+//
+// Typography
+//
+
+$ui-display-4: $grey-600;
+$ui-display-3: $grey-600;
+$ui-display-2: $grey-600;
+$ui-display-1: $grey-600;
+$ui-headline:  $grey-900;
+$ui-title:     $grey-900;
+$ui-subhead-1: $grey-900;
+$ui-body-2:    $grey-900;
+$ui-body-1:    $grey-900;
+$ui-caption:   $grey-600;
+$ui-menu:      $grey-900;
+$ui-button:    $grey-900;

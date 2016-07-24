@@ -1,0 +1,82 @@
+.lc-audio-player {
+  position: relative;
+  height: 68px;
+  width: 100%;
+  max-height: $lc-display-content-max-height;
+  max-width: $lc-display-content-max-width;
+  border-radius: 4px;
+  border: solid 1px;
+  border-color: $grey-300;
+  font-size: 20px;
+  line-height: 1.2em;
+  color: #000000;
+  background-color: #FFFFFF;
+
+  button {
+    background: none;
+    border: none;
+  }
+
+  .audio-control-panel {
+    position: absolute;
+    border-right: solid 1px $grey-300;
+    width: 68px;
+    height: 66px;
+
+    button {
+      outline: none;
+      padding: 0;
+      position: absolute;
+      left: 22px;
+      top: 23px;
+    }
+
+    i {
+      font-size: 20px;
+      color: $grey-500;
+    }
+  }
+
+  .audio-info-panel {
+    height: 66px;
+    width: 100%;
+    padding: 28px 154px 21px 88px;
+
+    .pull-width {
+      width: 20em;
+    }
+
+    div {
+      margin-top: 0;
+    }
+
+    .audio-hidden-menu {
+      color: $light-blue-900;
+      margin-top: -6px;
+      opacity: 0.1;
+      text-align: left;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: 14px;
+      cursor: default;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+
+  .audio-time-panel {
+    height: 66px;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+  }
+
+
+  //override rz-pointer outline
+  .rz-pointer {
+    outline: none;
+  }
+}
