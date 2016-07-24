@@ -24,6 +24,8 @@ export default class LcAudioPlayerController {
   }
 
   init() {
+    this.tooltip = true;
+
     if (this.audioSrc) {
       this.audio = this.ngAudio.load(this.audioSrc);
       this.audio.repeatCount = 0;
@@ -166,6 +168,8 @@ export default class LcAudioPlayerController {
   }
 
   loadOptions() {
-    this.showTooltip = this.options['showTooltip'];
+    if (typeof this.options['tooltip'] !== undefined) {
+      this.tooltip = this.options['tooltip'] === false ? false : true;
+    }
   }
 }
