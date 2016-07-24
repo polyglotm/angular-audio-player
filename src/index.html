@@ -1,8 +1,8 @@
 <!doctype html>
-<html ng-app="lcAudioPlayer" ng-strict-di>
+<html ng-app="lcAudioPlayer" class="lc-audio-player-demo" ng-strict-di>
   <head>
     <meta charset="utf-8">
-    <title>lcAudioPlayer</title>
+    <title>Angular-audio-player</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -24,7 +24,11 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <lcd-header></lcd-header>
+
     <div ui-view></div>
+
+    <lcd-footer></lcd-footer>
 
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->

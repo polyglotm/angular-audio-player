@@ -10,6 +10,11 @@ import { NavbarDirective } from '../app/components/navbar/navbar.directive';
 import { MalarkeyDirective } from '../app/components/malarkey/malarkey.directive';
 
 import './common/common.module';
+import './components/components.module';
+
+import './main/main.module';
+import './intro/intro.module';
+import './example-1/example-1.module';
 
 angular.module('lcAudioPlayer', [
   'ngAnimate', 
@@ -26,7 +31,11 @@ angular.module('lcAudioPlayer', [
   'ngAudio',
   'rzModule',
 
-  'lc.common'
+  'lc.common',
+  'lc.components',
+  'lc.main',
+  'lc.intro',
+  'lc.example.example1'
 ])
   .constant('malarkey', malarkey)
   .constant('moment', moment)
