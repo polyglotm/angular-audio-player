@@ -27,6 +27,13 @@ export default class LcAudioPlayerController {
     if (this.audioSrc) {
       this.audio = this.ngAudio.load(this.audioSrc);
       this.audio.repeatCount = 0;
+      if (this.autoPlay == true) {
+        this.audioPlay();
+      }
+
+      if (this.options) {
+        this.loadOptions();
+      }
     }
 
     this.slider = {
@@ -156,5 +163,9 @@ export default class LcAudioPlayerController {
            && this.audio.remaining !== 0
            && this.audio.repeatCount !== 0
            && this.checkAudioLoad();
+  }
+
+  loadOptions() {
+    this.showTooltip = this.options['showTooltip'];
   }
 }

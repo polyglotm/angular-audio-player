@@ -10,7 +10,9 @@ export default function lcAudioPlayerComponent() {
     bindings: {
       audioSrc: '=',
       audioFilename: '=?',
-      isEditorMode: '=?',
+      autoPlay: '=?',
+      options: '=?',
+      isEditorMode: '=?'
     }
   }
 }
