@@ -1,7 +1,16 @@
 {
   "name": "lcAudioPlayer",
-  "version": "0.0.0",
-  "dependencies": {},
+  "version": "1.0.0",
+  "author": "Jaeyoung Lee <polyglot.m@gmail.com>",
+  "contributors": [
+  ],
+  "description": "angular audio player",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polyglotm/angular-audio-player"
+  },
+  "dependencies": {
+  },
   "scripts": {
     "test": "gulp test"
   },
