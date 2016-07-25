@@ -79,7 +79,7 @@ gulp.task('fonts', function () {
   return gulp.src($.mainBowerFiles())
     .pipe($.filter('**/*.{eot,otf,svg,ttf,woff,woff2}'))
     .pipe($.flatten())
-    .pipe(gulp.dest(path.join(conf.paths.dist, '/fonts/')));
+    .pipe(gulp.dest(path.join(conf.paths.dist, '/assets/fonts/')));
 });
 
 gulp.task('other', function () {
