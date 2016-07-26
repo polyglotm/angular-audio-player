@@ -1,6 +1,15 @@
 {
   "name": "lcAudioPlayer",
-  "version": "0.0.0",
+  "version": "1.0.2",
+  "author": "Jaeyoung Lee <polyglot.m@gmail.com>",
+  "license": "MIT",
+  "contributors": [],
+  "description": "angular audio player",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polyglotm/angular-audio-player"
+  },
+  "bugs": "https://github.com/polyglotm/angular-audio-player/issues",
   "dependencies": {
     "angular-animate": "~1.5.3",
     "angular-cookies": "~1.5.3",
@@ -13,7 +22,6 @@
     "angular-ui-router": "~0.2.15",
     "bootstrap-sass": "~3.3.5",
     "angular-bootstrap": "~1.3.3",
-    "malarkey": "yuanqing/malarkey#~1.3.1",
     "angular-toastr": "~1.5.0",
     "moment": "~2.10.6",
     "animate.css": "~3.4.0",
@@ -29,7 +37,7 @@
       "main": [
         "assets/stylesheets/_bootstrap.scss",
         "assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
-        "assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
+        "asses/fonts/bootstrap/glyphicons-halflings-regular.svg",
         "assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
         "assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
         "assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
