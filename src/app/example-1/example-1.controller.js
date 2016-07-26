@@ -1,9 +1,11 @@
 'use strict';
 
 export default class Example1Controller {
-  constructor() {
+  constructor(S3_AUDIO_LIST) {
+    'ngInject';
+
     this.exampleAudio1 = {
-      audioSrc: 'assets/audios/Pastel-Shade-01-if-you-can-stop-that`s-not-love-320k.mp3',
+      audioS3Src: S3_AUDIO_LIST.s2,
       audioFilename: 'Pastel-Shade-01-if-you-can-stop-that`s-not-love-320k.mp3',
       doc: 
 `<lc-audio-player 
@@ -13,7 +15,7 @@ export default class Example1Controller {
     }
 
     this.exampleAudio2 = {
-      audioSrc: 'assets/audios/EFIX & Kokenn - Louise (Feat Edgar).mp3',
+      audioS3Src: S3_AUDIO_LIST.s3,
       doc:
 `<lc-audio-player 
   audio-src="/input/your/src/url">
@@ -21,7 +23,7 @@ export default class Example1Controller {
     }
 
     this.exampleAudio3 = {
-      audioSrc: 'assets/audios/uneasy-dream(a-bittersweet-life-ost).mp3',
+      audioS3Src: S3_AUDIO_LIST.s4,
       audioFilename: 'uneasy-dream(a-bittersweet-life-ost).mp3',
       options: {
         tooltip: false
