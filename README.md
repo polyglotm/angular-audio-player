@@ -30,9 +30,11 @@ i choose [MIT lisence](https://opensource.org/licenses/MIT)
 
 ##Release Note
 
+###1.0.2
+* light weight the source
+
 ###1.0.1
 * add lisence
-* add example
 
 ###1.0.0 
 * first init
