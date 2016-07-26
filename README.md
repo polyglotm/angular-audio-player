@@ -30,6 +30,10 @@ i choose [MIT lisence](https://opensource.org/licenses/MIT)
 
 ##Release Note
 
+###1.0.3
+* light weight the source
+* remove before tag
+
 ###1.0.2
 * light weight the source
 
