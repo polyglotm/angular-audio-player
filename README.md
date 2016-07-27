@@ -30,22 +30,40 @@ i choose [MIT lisence](https://opensource.org/licenses/MIT)
 
 ##Release Note
 
-###1.0.7
+###1.0.x
+
+> 1.0.10
+
+* **Support ES5 smooth**
+
+> 1.0.9 **DON'T USE THIS VERSION **
+
+* **Support ES5 beta**
+* refactor directory architecture
+
+> 1.0.7
+
 * add dist directory for ES5 user
 * add index.js file for ES5 user
 
-###1.0.4
+> 1.0.4
+
 * import alias name (for prevent conflict)
 
-###1.0.3
+> 1.0.3
+
 * light weight the source
 * remove before tag
 
-###1.0.2
+> 1.0.2
+
 * light weight the source
 
-###1.0.1
+> 1.0.1
+
 * add lisence
 
-###1.0.0 
+> 1.0.0 
+
 * first init
+
