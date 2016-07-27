@@ -5,5 +5,4 @@ coverage/
 .idea/
 .tmp/
 .publish/
-dist/
 *.orig
