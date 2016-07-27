@@ -32,6 +32,10 @@ i choose [MIT lisence](https://opensource.org/licenses/MIT)
 
 ###1.2.x stable version
 
+> 1.2.1
+
+* dist file update
+
 > 1.2.0 **stable**
 
 * **First stable version release!**
