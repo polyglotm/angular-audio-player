@@ -12,7 +12,7 @@ so i recommended bower install.
 
 ###1. bower module download
 `
-bower install angular-audio-player --save
+bower install lc-audio-player --save
 `
 
 ###2. add lcAudioPlayer module on your module
@@ -29,6 +29,9 @@ See the Live Demo!
 i choose [MIT lisence](https://opensource.org/licenses/MIT)
 
 ##Release Note
+
+###1.0.4
+* import alias name (for prevent conflict)
 
 ###1.0.3
 * light weight the source
