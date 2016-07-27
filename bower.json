@@ -1,10 +1,10 @@
 {
   "name": "lc-audio-player",
   "description": "audio player for angular. Cover to Web / Tablet / Mobile Resolution",
-  "version": "1.0.10",
+  "version": "1.2.0",
   "author": "Jaeyoung Lee <polyglot.m@gmail.com>",
   "license": "MIT",
-  "main": "dist/",
+  "main": "dist/**/*.*",
   "contributors": [],
   "repository": {
     "type": "git",

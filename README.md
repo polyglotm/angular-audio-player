@@ -30,7 +30,16 @@ i choose [MIT lisence](https://opensource.org/licenses/MIT)
 
 ##Release Note
 
-###1.0.x
+###1.2.x stable version
+
+> 1.2.0 **stable**
+
+* **First stable version release!**
+* bower.json main directory change
+
+
+
+###1.0.x *Don't use this version*
 
 > 1.0.10
 
