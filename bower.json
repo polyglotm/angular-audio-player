@@ -4,7 +4,7 @@
   "version": "1.0.10",
   "author": "Jaeyoung Lee <polyglot.m@gmail.com>",
   "license": "MIT",
-  "main": "dist/",
+  "main": "dist/**/*.*",
   "contributors": [],
   "repository": {
     "type": "git",
