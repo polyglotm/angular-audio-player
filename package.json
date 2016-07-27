@@ -1,16 +1,21 @@
 {
   "name": "lc-audio-player",
-  "version": "1.0.8",
+  "description": "udio player for angular. Covers to Web / Tablet / Mobile Resolution",
+  "version": "1.0.9",
   "author": "Jaeyoung Lee <polyglot.m@gmail.com>",
   "license": "MIT",
   "main": "dist/",
   "contributors": [],
-  "description": "angular audio player",
   "repository": {
     "type": "git",
     "url": "https://github.com/polyglotm/angular-audio-player"
   },
   "bugs": "https://github.com/polyglotm/angular-audio-player/issues",
+  "keywords": [
+    "angular",
+    "audio",
+    "player"
+  ],
   "dependencies": {},
   "scripts": {
     "test": "gulp test"

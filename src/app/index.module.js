@@ -14,7 +14,7 @@ import './main/main.module';
 import './intro/intro.module';
 import './example-1/example-1.module';
 
-angular.module('lcAudioPlayer', [
+angular.module('lcAudioPlayerDemo', [
   'ngAnimate', 
   'ngCookies', 
   'ngTouch', 
