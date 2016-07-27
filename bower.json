@@ -1,8 +1,9 @@
 {
   "name": "lc-audio-player",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Jaeyoung Lee <polyglot.m@gmail.com>",
   "license": "MIT",
+  "main": "dist/",
   "contributors": [],
   "description": "angular audio player",
   "repository": {
