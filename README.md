@@ -30,6 +30,10 @@ i choose [MIT lisence](https://opensource.org/licenses/MIT)
 
 ##Release Note
 
+###1.0.7
+* add dist directory for ES5 user
+* add index.js file for ES5 user
+
 ###1.0.4
 * import alias name (for prevent conflict)
 
