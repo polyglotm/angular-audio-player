@@ -1,3 +1,5 @@
+'use strict';
+
 /* global malarkey:false, moment:false */
 
 import { config } from './index.config';
