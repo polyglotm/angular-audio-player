@@ -32,6 +32,10 @@ i choose [MIT lisence](https://opensource.org/licenses/MIT)
 
 ###1.2.x stable version
 
+> 1.2.2
+
+* max-width 540px -> 620px
+
 > 1.2.1
 
 * dist file update

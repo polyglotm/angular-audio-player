@@ -1,7 +1,7 @@
 {
   "name": "lc-audio-player",
   "description": "audio player for angular. Cover to Web / Tablet / Mobile Resolution",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "Jaeyoung Lee <polyglot.m@gmail.com>",
   "license": "MIT",
   "main": "dist/**/*.*",
